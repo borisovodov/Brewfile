@@ -1,3 +1,6 @@
+# → brew bundle dump --file=~/Brewfile --force
+# ← brew bundle --file=~/Brewfile
+
 tap "cooklang/tap"
 tap "homebrew/bundle"
 tap "homebrew/services"
