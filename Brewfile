@@ -5,9 +5,6 @@
 # brew bundle check
 # brew bundle cleanup
 
-# → brew bundle dump --file=~/Brewfile --force
-# ← brew bundle --file=~/Brewfile
-
 tap "homebrew/bundle"
 tap "homebrew/services"
 brew "cmake"
