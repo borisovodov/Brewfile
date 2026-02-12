@@ -31,6 +31,7 @@ brew "hashcat"
 brew "innoextract"
 brew "libpq", link: true
 brew "llvm@14"
+brew "mas"
 brew "mimalloc"
 brew "mysql"
 brew "mysql-client"
@@ -104,6 +105,29 @@ cask "wine@staging"
 cask "yandextelemost"
 cask "zed"
 cask "zoom"
+mas "BlueWallet", id: 1376878040
+mas "Cleaner for Xcode", id: 1296084683
+mas "Craft", id: 1487937127
+mas "Final Cut Pro", id: 424389933
+mas "Hermann • Time Tracker", id: 0
+mas "Infuse", id: 1136220934
+mas "Keka", id: 470158793
+mas "Keynote", id: 361285480
+mas "Logic Pro", id: 634148309
+mas "MacFamilyTree 10", id: 1567970985
+mas "MainStage", id: 634159523
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
+mas "Pixelmator Pro", id: 1289583905
+mas "Shadowrocket", id: 932747118
+mas "Speedtest", id: 1153157709
+mas "Tampermonkey", id: 6738342400
+mas "Telegram", id: 747648890
+mas "TestFlight", id: 899247664
+mas "Things", id: 904280696
+mas "Tyme", id: 1461456897
+mas "Windows App", id: 1295203466
+mas "Xcode", id: 497799835
 vscode "bradlc.vscode-tailwindcss"
 vscode "computerliebe.gitea-workflow"
 vscode "dbaeumer.vscode-eslint"
