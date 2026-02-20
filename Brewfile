@@ -1,9 +1,9 @@
-# → brew bundle dump --file=~/Brewfile --force
-# ← brew bundle --file=~/Brewfile
-# 
+# → brew bundle dump --force
+# ← brew bundle
 # Usage:
 # brew bundle check
 # brew bundle cleanup
+
 
 tap "homebrew/bundle"
 tap "homebrew/services"
@@ -12,15 +12,15 @@ brew "curl"
 brew "exiftool"
 brew "ffmpeg"
 brew "git"
+brew "pinentry"
 brew "gnupg"
 brew "mas"
-brew "node@22"
+brew "node@25"
 brew "pandoc"
 brew "pinentry-mac"
 brew "poetry"
 brew "postgresql@16"
 brew "python@3.13"
-brew "qemu"
 brew "vapor"
 brew "wget"
 brew "yt-dlp"
@@ -51,12 +51,12 @@ cask "font-sf-hebrew"
 cask "font-sf-mono"
 cask "font-sf-pro"
 cask "ghostty"
+cask "karabiner-elements"
 cask "mactex-no-gui"
 cask "nvidia-geforce-now"
 cask "obs"
 cask "obsidian"
 cask "ollama-app"
-cask "openemu"
 cask "raspberry-pi-imager"
 cask "steam"
 cask "tableplus"
@@ -74,6 +74,7 @@ mas "Keka", id: 470158793
 mas "Keynote", id: 361285480
 mas "Logic Pro", id: 634148309
 mas "MacFamilyTree 10", id: 1567970985
+mas "MainStage", id: 634159523
 mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
 mas "Pixelmator Pro", id: 1289583905
@@ -91,6 +92,7 @@ vscode "github.vscode-pull-request-github"
 vscode "james-yu.latex-workshop"
 vscode "llvm-vs-code-extensions.lldb-dap"
 vscode "matthewpi.caddyfile-support"
+vscode "ms-azuretools.vscode-containers"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
