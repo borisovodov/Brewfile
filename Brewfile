@@ -5,8 +5,6 @@
 # brew bundle cleanup
 
 
-tap "homebrew/bundle"
-tap "homebrew/services"
 brew "apfel"
 brew "cmake"
 brew "curl"
