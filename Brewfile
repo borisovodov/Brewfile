@@ -15,10 +15,10 @@ brew "apfel"
 brew "cmake"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# TIFF library and utilities
-brew "libtiff"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
+# TIFF library and utilities
+brew "libtiff"
 # Perl lib for reading and writing EXIF metadata
 brew "exiftool"
 # Play, record, convert, and stream select audio and video codecs
