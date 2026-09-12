@@ -133,10 +133,12 @@ cask "zoom"
 mas "Cleaner for Xcode", id: 1296084683
 mas "Craft", id: 1487937127
 mas "Final Cut Pro", id: 424389933
+mas "Hermann", id: 6480348420
 mas "Infuse", id: 1136220934
 mas "Keka", id: 470158793
 mas "Keynote", id: 361285480
 mas "Logic Pro", id: 634148309
+mas "MacFamilyTree 10", id: 1567970985
 mas "MainStage", id: 634159523
 mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
@@ -179,3 +181,6 @@ vscode "swiftlang.swift-vscode"
 vscode "tonsky.theme-alabaster"
 vscode "vadimcn.vscode-lldb"
 vscode "vizards.deepseek-v4-for-copilot"
+npm "@vscode/l10n-dev"
+npm "heroui-cli"
+npm "typescript"
