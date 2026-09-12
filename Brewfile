@@ -15,6 +15,10 @@ brew "apfel"
 brew "cmake"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# TIFF library and utilities
+brew "libtiff"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
 # Perl lib for reading and writing EXIF metadata
 brew "exiftool"
 # Play, record, convert, and stream select audio and video codecs
@@ -29,8 +33,6 @@ brew "pinentry"
 brew "gnupg"
 # Research tool for iOS & macOS devices
 brew "ipsw"
-# TIFF library and utilities
-brew "libtiff"
 # Mac App Store command-line interface
 brew "mas"
 # Open-source, cross-platform JavaScript runtime environment
@@ -49,8 +51,6 @@ brew "postgresql@18", restart_service: :changed, link: true
 brew "rclone"
 # Command-line tool for Vapor (Server-side Swift web framework)
 brew "vapor"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
 # Internet file retriever
 brew "wget"
 # Build server protocol implementation for integrating Xcode with sourcekit-lsp
