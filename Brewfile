@@ -1,5 +1,8 @@
+# ln -s /Users/boris/Projects/Brewfile/Brewfile /Users/boris/Brewfile
+# 
 # → brew bundle dump --force
 # ← brew bundle
+# 
 # Usage:
 # brew bundle check --verbose
 # brew bundle install
@@ -12,6 +15,8 @@ brew "apfel"
 brew "cmake"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# TIFF library and utilities
+brew "libtiff"
 # Perl lib for reading and writing EXIF metadata
 brew "exiftool"
 # Play, record, convert, and stream select audio and video codecs
