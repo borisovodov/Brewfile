@@ -9,6 +9,8 @@
 # brew bundle cleanup
 
 
+# Static checker for GitHub Actions workflow files
+brew "actionlint"
 # Apple Intelligence from the command-line, with OpenAi-compatible API server
 brew "apfel"
 # Cross-platform make
@@ -25,6 +27,8 @@ brew "exiftool"
 brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
 # Distributed revision control system
 brew "git"
 # Passphrase entry dialog utilizing the Assuan protocol
@@ -37,20 +41,22 @@ brew "ipsw"
 brew "mas"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
+# AI coding agent, built for the terminal
+brew "opencode"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
 # Python package management tool
 brew "poetry"
 # Object-relational database system
 brew "postgresql@18", restart_service: :changed, link: true
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
 # Rsync for cloud storage
 brew "rclone"
-# Command-line tool for Vapor (Server-side Swift web framework)
-brew "vapor"
+# Formatting technology for Swift source code
+brew "swift-format"
 # Internet file retriever
 brew "wget"
 # Build server protocol implementation for integrating Xcode with sourcekit-lsp
@@ -96,12 +102,8 @@ cask "font-sf-mono"
 cask "font-sf-pro"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-# Xcode extension for GitHub Copilot
-cask "github-copilot-for-xcode"
 # Keyboard customiser
 cask "karabiner-elements"
-# Privacy-first, open-source platform for knowledge sharing and management
-cask "logseq"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
 # Tool to control external monitor brightness & volume
@@ -112,10 +114,10 @@ cask "nvidia-geforce-now"
 cask "obs"
 # Get up and running with large language models locally
 cask "ollama-app"
+# AI coding agent desktop client
+cask "opencode-desktop"
 # Geographic Information System
 cask "qgis"
-# Imaging utility to install operating systems to a microSD card
-cask "raspberry-pi-imager"
 # Video game digital distribution service
 cask "steam"
 # Native GUI tool for relational databases
@@ -130,12 +132,8 @@ cask "vlc"
 cask "yandex"
 # Cloud storage
 cask "yandex-disk"
-# Tune in to Yandex Music and get personal recommendations
-cask "yandex-music"
 # Yandex video calls and meetings platform
 cask "yandextelemost"
-# Multiplayer code editor
-cask "zed"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Cleaner for Xcode", id: 1296084683
@@ -147,6 +145,7 @@ mas "Keka", id: 470158793
 mas "Keynote", id: 361285480
 mas "Logic Pro", id: 634148309
 mas "MainStage", id: 634159523
+mas "Nought", id: 6785636339
 mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
 mas "Pixelmator Pro", id: 1289583905
@@ -188,6 +187,7 @@ vscode "swiftlang.swift-vscode"
 vscode "tonsky.theme-alabaster"
 vscode "vadimcn.vscode-lldb"
 vscode "vizards.deepseek-v4-for-copilot"
+vscode "vue.volar"
 npm "@vscode/l10n-dev"
 npm "heroui-cli"
 npm "typescript"
