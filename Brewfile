@@ -138,6 +138,7 @@ cask "yandextelemost"
 cask "zoom"
 mas "Cleaner for Xcode", id: 1296084683
 mas "Craft", id: 1487937127
+mas "Developer", id: 640199958
 mas "Final Cut Pro", id: 424389933
 mas "Hermann", id: 6480348420
 mas "Infuse", id: 1136220934
