@@ -52,6 +52,8 @@ brew "postgresql@18", restart_service: :changed, link: true
 brew "python@3.14"
 # Rsync for cloud storage
 brew "rclone"
+# Universal proxy platform
+brew "sing-box"
 # Formatting technology for Swift source code
 brew "swift-format"
 # Internet file retriever
