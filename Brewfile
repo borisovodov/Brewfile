@@ -9,6 +9,7 @@
 # brew bundle cleanup
 
 
+tap "borisovodov/taps", trusted: true
 # Static checker for GitHub Actions workflow files
 brew "actionlint"
 # Apple Intelligence from the command-line, with OpenAi-compatible API server
@@ -19,16 +20,12 @@ brew "cmake"
 brew "curl"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
-# TIFF library and utilities
-brew "libtiff"
 # Perl lib for reading and writing EXIF metadata
 brew "exiftool"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"
-# OCR (Optical Character Recognition) engine
-brew "tesseract"
 # Distributed revision control system
 brew "git"
 # Passphrase entry dialog utilizing the Assuan protocol
@@ -67,10 +64,10 @@ brew "yt-dlp"
 cask "affinity"
 # Memory training application
 cask "anki"
-# Local-first and end-to-end encrypted notes app
-cask "anytype"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
+# Local-first genealogy for the AI era
+cask "borisovodov/taps/doru"
 # Online diagram software
 cask "drawio"
 # Web browser
