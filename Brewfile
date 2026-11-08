@@ -42,12 +42,12 @@ brew "opencode"
 brew "pandoc"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.15"
 # Python package management tool
 brew "poetry"
 # Object-relational database system
 brew "postgresql@18", restart_service: :changed, link: true
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
 # Rsync for cloud storage
 brew "rclone"
 # Universal proxy platform
