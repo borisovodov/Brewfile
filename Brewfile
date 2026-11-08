@@ -18,8 +18,6 @@ brew "apfel"
 brew "cmake"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
 # Perl lib for reading and writing EXIF metadata
 brew "exiftool"
 # Play, record, convert, and stream select audio and video codecs
